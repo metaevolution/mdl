@@ -6,6 +6,6 @@ setup(name='mdl',
       version='1.0',
       description='Python Library for Malware domain List',
       author='Brandon Archer',
-      packages=['mdl']
+      py_modules=['mdl']
       )
 
