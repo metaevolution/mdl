@@ -81,7 +81,7 @@ class MalwareDomainList(object):
     @param filename: path to the malware domain list CSV file. Default ~/mdl.csv
     @type filename: str
 
-    @param show_inactive: Return results marked inactive in the malware domain list. Defaul false.
+    @param show_inactive: Return results marked inactive in the malware domain list. Default false.
     @type show_inactive: bool
 
     @param max_age: Max age of MDL file in days. If MDL is older than max_age an OutdatedMDLException is raised. Default value is %d days.
